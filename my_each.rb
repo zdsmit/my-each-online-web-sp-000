@@ -4,4 +4,5 @@ def my_each(words)
     yield words[n] if block_given?
     n += 1
   end
+  words
 end
